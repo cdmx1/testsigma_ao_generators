@@ -14,7 +14,7 @@ import lombok.Data;
 import org.openqa.selenium.NoSuchElementException;
 
 @Data
-@Action(actionText = "Generate randome number between (Min, Max) and store it in runtime variable",
+@Action(actionText = "Generate random number between (Min, Max) and store it in runtime variable",
         description = "This addon will generate a random number between the minimum and maximum values and store it in a runtime variable",
         applicationType = ApplicationType.WEB)
 
